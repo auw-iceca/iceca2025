@@ -21,20 +21,27 @@
   </div>
 </header>
 
-  <!-- Navigation Bar -->
+<!-- Navigation Bar -->
   <nav class="navbar">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#welcome">Home</a>
+        <div class="dropdown-content">
+          <a href="#welcome">Welcome</a>
+          <a href="#objectives">Objectives</a>
+          <a href="#venue">Venue</a>
+        </div>
+      </li>
       <li class="dropdown">
         <a href="about.html">Themes and Speakers</a>
         <div class="dropdown-content">
-          <a href="about.html#program">Program Schedule</a>
+          <a href="about.html#schedule">Program Schedule</a>
           <a href="about.html#topics">Conference Topics</a>
           <a href="about.html#speakers">Speakers</a>
           <a href="about.html#proceedings">Conference Proceedings</a>
         </div>
       </li>
-      <li class="dropdown">
+     <li class="dropdown">
         <a href="committee.html">Committee</a>
         <div class="dropdown-content">
           <a href="committee.html">Patron</a>
@@ -45,13 +52,28 @@
           <a href="committee.html#int-advisory">International Scientific Advisory Committee</a>
         </div>
       </li>
-      <li><a href="#travel">Travel & Stay</a></li>
-      <li><a href="media.html">Gallery & Media</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="travel.html">Travel & Stay</a></li>
+      <li class="dropdown">
+        <a href="media.html">Gallery & Media</a>
+        <div class="dropdown-content">
+          <a href="media.html#gallery">Gallery</a>
+          <a href="sponsors.html#sponsors">Sponsors</a>
+          <a href="media.html#media">Media Coverage</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="contact.html">Contact</a>
+        <div class="dropdown-content">
+          <a href="contact.html#info">Contact Info</a>
+          <a href="contact.html#social">Social Media</a>
+          <a href="contact.html#faq">FAQs</a>
+        </div>
+      </li>
     </ul>
   </nav>
 
- <main class="content">
+
+<main class="content">
 
   <!-- Patron -->
   <section id="patron">
@@ -86,12 +108,12 @@
   <section id="secretaries">
     <h2>Secretaries</h2>
     <ul>
-      <li>&gt; Shaika Mohammad Chowdhury</li>
-      <li>&gt; Arap Jahan Nodi</li>
-      <li>&gt; Afra Nawar Rahman</li>
-      <li>&gt; Miftahul Jannat</li>
-      <li>&gt; Ayesha Shafika Bhuiyan</li>
-      <li>&gt; Mipru Marma</li>
+      <li>&gt; <strong>Shaika Mohammad Chowdhury</strong></li>
+      <li>&gt; <strong>Arap Jahan Nodi</strong></li>
+      <li>&gt; <strong>Afra Nawar Rahman</strong></li>
+      <li>&gt; <strong>Miftahul Jannat</strong></li>
+      <li>&gt; <strong>Ayesha Shafika Bhuiyan</strong></li>
+      <li>&gt; <strong>Mipru Marma</strong></li>
     </ul>
   </section>
 
@@ -149,165 +171,146 @@
       <div>&gt; <strong>Mrs. Tapu Chowdhury</strong><br>
       Assistant Registrar,<br>
       Asian University for Women, Bangladesh</div>
+    </div>
+  </section>
+
+  <!-- International Scientific Advisory Committee -->
+  <section id="int-advisory">
+    <h2 style="color: #006400;">International Scientific Advisory Committee</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.2rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.5;">
+
+      <div>&gt; <strong>Prof. Dr. Udhab Raj Khadka</strong><br>
+      Head of Department, Central Department of Environmental Science (CDES)<br>
+      Tribhuvan University, Nepal</div>
+
+      <div>&gt; <strong>Dr. Syed</strong><br>
+      Managing Director of C4RE Services Ltd</div>
+
+      <div>&gt; <strong>Prof. Amilan Jose Devadoss</strong><br>
+      Assistant Professor<br>
+      National Institute of Technology (NIT), Kurukshetra, India</div>
+
+      <div>&gt; <strong>Dr. Nadia White</strong><br>
+      Graduate Program Director, Environmental Science & Natural Resource Journalism Program<br>
+      University of Montana, United States</div>
+
+      <div>&gt; <strong>Dr. Sakkarapalayam M. Mahalingam</strong><br>
+      Research Scientist, Institute of Drug Discovery<br>
+      Purdue University, United States</div>
+
+      <div>&gt; <strong>Dr. Senthil Kumar K.J.</strong><br>
+      Assistant Professor<br>
+      National Chung Hsing University, Taichung, Taiwan</div>
+
+      <div>&gt; <strong>Dr. Rameshprabu Ramaraj</strong><br>
+      Assistant Dean, School of Renewable Energy<br>
+      Maejo University, Thailand</div>
+
+      <div>&gt; <strong>Dr. Chaudhery Mustansar Hussain</strong><br>
+      Director of Chemistry, EVSc Labs & Adjunct Professor<br>
+      New Jersey Institute of Technology, United States</div>
+
+      <div>&gt; <strong>Prof. Dr. Gawsia Wahidunnessa Chowdhury</strong><br>
+      Professor, Department of Zoology<br>
+      University of Dhaka, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Elackiya Sithamparanathan</strong><br>
+      Program Coordinator<br>
+      Wageningen University, Denmark</div>
+
+      <div>&gt; <strong>Dr. Dharmalingam Arunachalam</strong><br>
+      Professor, School of Social Sciences<br>
+      Monash University, Melbourne, Australia</div>
+
+      <div>&gt; <strong>Mr. Shamsudin Illias</strong><br>
+      Founder and Director<br>
+      The Climate Watch, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Anuluxy Balasubramaniam</strong><br>
+      Research Manager<br>
+      Palmyrah Research Institute, Jaffna, Sri Lanka</div>
+
+      <div>&gt; <strong>Dr. Jakkir Hussian</strong><br>
+      Director, Forest Chemistry Division<br>
+      Bangladesh Forest Research Institute (BFRI), Chattogram, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Md. SM Shamsul Huda</strong><br>
+      Associate Professor<br>
+      University of Chittagong, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Md. Abul Kashem</strong><br>
+      Associate Professor<br>
+      University of Chittagong, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Khaled Misbahuzzman</strong><br>
+      Professor<br>
+      University of Chittagong, Bangladesh</div>
+
+      <div>&gt; <strong>Dr. İsmail Bezirganoğlu</strong><br>
+      Associate Professor<br>
+      Erzurum Technical University, Erzurum, Turkey</div>
+
+      <div>&gt; <strong>Dr. Kohinoor Begum</strong><br>
+      Senior Scientist<br>
+      Bangladesh Sugarcrop Research Institute (BSRI), Bangladesh</div>
+
+      <div>&gt; <strong>Md. Abdul Quddus Miah</strong><br>
+      Scientist, Coastal Forest Research Division<br>
+      Bangladesh Forest Research Institute (BFRI), Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Shams Forruque Ahmed</strong><br>
+      Associate Professor, School of Mathematical Sciences<br>
+      Sunway University, Malaysia</div>
+
+      <div>&gt; <strong>Dr. S.P. Rajasingh</strong><br>
+      Head of Chemistry Department<br>
+      Kamarajar Govt Arts College, Tamil Nadu, India</div>
+
+      <div>&gt; <strong>Dr. G. Rajendra Kumar</strong><br>
+      Assistant Professor<br>
+      Mizoram University, India</div>
+
+      <div>&gt; <strong>Dr. Md. Arifur Rahman</strong><br>
+      Senior Program Specialist<br>
+      Young Power in Social Action (YPSA), Bangladesh</div>
+
+      <div>&gt; <strong>Dr. Selvam Thorez</strong><br>
+      Président<br>
+      Asie-Femmes d'Avenir Association, France</div>
+
+      <div>&gt; <strong>Dr. A. Usha Raja Nanthini</strong><br>
+      Professor and Head, Department of Biotechnology<br>
+      Mother Teresa Women University, India</div>
+
+      <div>&gt; <strong>Prof. Dr. Faisal Islam Chowdhury</strong><br>
+      Department of Chemistry<br>
+      University of Chittagong, Bangladesh</div>
+
+      <div>&gt; <strong>Professor Anamika Barua</strong><br>
+      Department of Humanities and Social Sciences<br>
+      IIT Guwahati, India</div>
+
+      <div>&gt; <strong>Dr. Sunita Chaudhary</strong><br>
+      Biodiversity Lead<br>
+      ICIMOD, Nepal</div>
+
+      <div>&gt; <strong>Dr. Elizabeth Eklund, Ph.D.</strong><br>
+      Visiting Assistant Professor<br>
+      Purdue University, United States</div>
+
+      <div>&gt; <strong>Shanta Dutta</strong><br>
+      Postdoctoral Fellow<br>
+      The Hong Kong Polytechnic University</div>
 
     </div>
   </section>
 
 </main>
 
+<footer>
+  <p>© ICECA 2025 | Asian University for Women | Supported by Swiss Philanthropy Foundation</p>
+</footer>
 
-<!-- International Scientific Advisory Committee -->
-<section id="int-advisory">
-  <h2 style="color: #006400;">International Scientific Advisory Committee</h2>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.2rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.5;">
-
-    <div>&gt; <strong>Prof. Dr. Udhab Raj Khadka</strong><br>
-    Head of Department, Central Department of Environmental Science (CDES)<br>
-    Tribhuvan University, Nepal</div>
-
-    <div>&gt; <strong>Dr. Churchil Angel Antony Raj </strong><br>
-    Associate Professor<br>
-    PSG College of Arts and Science, India</div>
-
-    <div>&gt; <strong>Prof. Amilan Jose Devadoss</strong><br>
-    Assistant Professor<br>
-    National Institute of Technology (NIT), Kurukshetra, India</div>
-
-    <div>&gt; <strong>Dr. M.S.A. Muthukumar Nadar</strong><br>
-    Assistant Professor<br>
-    Karunya University, Tamil Nadu, India</div>
-
-    <div>&gt; <strong>Dr. Nadia White</strong><br>
-    Graduate Program Director, Environmental Science & Natural Resource Journalism Program<br>
-    University of Montana, United States</div>
-
-    <div>&gt; <strong>Dr. Sakkarapalayam M. Mahalingam</strong><br>
-    Research Scientist, Institute of Drug Discovery<br>
-    Purdue University, United States</div>
-
-    <div>&gt; <strong>Dr. Senthil Kumar K.J.</strong><br>
-    Assistant Professor<br>
-    National Chung Hsing University, Taichung, Taiwan</div>
-
-    <div>&gt; <strong>Dr. Rameshprabu Ramaraj</strong><br>
-    Assistant Dean, School of Renewable Energy<br>
-    Maejo University, Thailand</div>
-
-    <div>&gt; <strong>Dr. Chaudhery Mustansar Hussain</strong><br>
-    Director of Chemistry, EVSc Labs & Adjunct Professor<br>
-    New Jersey Institute of Technology, United States</div>
-
-    <div>&gt; <strong>Prof. Dr. Gawsia Wahidunnessa Chowdhury</strong><br>
-    Professor, Department of Zoology<br>
-    University of Dhaka, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Elackiya Sithamparanathan</strong><br>
-    Program Coordinator<br>
-    Wageningen University,Denmark</div>
-
-    <div>&gt; <strong>Prof. Dr. Chris Zevenbergen</strong><br>
-    Professor<br>
-    IHE Delft Institute for Water Education, Delft, Netherlands</div>
-
-    <div>&gt; <strong>Dr. Dharmalingam Arunachalam</strong><br>
-    Professor, School of Social Sciences<br>
-    Monash University, Melbourne, Australia</div>
-
-    <div>&gt; <strong>Mr. Shamsudin Illias</strong><br>
-    Founder and Director<br>
-    The Climate Watch, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Anuluxy Balasubramaniam</strong><br>
-    Research Manager<br>
-    Palmyrah Research Institute, Jaffna, Sri Lanka</div>
-
-    <div>&gt; <strong>Dr. Jakkir Hussian</strong><br>
-    Director, Forest Chemistry Division<br>
-    Bangladesh Forest Research Institute (BFRI), Chattogram, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Md. SM Shamsul Huda</strong><br>
-    Associate Professor<br>
-    University of Chittagong, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Md. Abul Kashem</strong><br>
-    Associate Professor<br>
-    University of Chittagong, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Khaled Misbahuzzman</strong><br>
-    Professor<br>
-    University of Chittagong, Bangladesh</div>
-
-    <div>&gt; <strong>Dr. İsmail Bezirganoğlu</strong><br>
-    Associate Professor<br>
-    Erzurum Technical University, Erzurum, Turkey</div>
-
-    <div>&gt; <strong>Dr. Kohinoor Begum</strong><br>
-    Senior Scientist<br>
-    Bangladesh Sugarcrop Research Institute (BSRI), Bangladesh</div>
-
-    <div>&gt; <strong>Md. Abdul Quddus Miah</strong><br>
-    Scientist, Coastal Forest Research Division<br>
-    Bangladesh Forest Research Institute (BFRI), Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Shams Forruque Ahmed</strong><br>
-    Associate Professor, School of Mathematical Sciences<br>
-    Sunway University, Malaysia</div>
-
-    <div>&gt; <strong>Dr. S.P. Rajasingh</strong><br>
-    Head of Chemistry Department<br>
-    Kamarajar Govt Arts College, Tamil Nadu, India</div>
-
-    <div>&gt; <strong>Dr. G. Rajendra Kumar</strong><br>
-    Assistant Professor<br>
-    Mizoram University, India</div>
-
-    <div>&gt; <strong>Dr. Md. Arifur Rahman</strong><br>
-    Senior Program Specialist<br>
-    Young Power in Social Action (YPSA), Bangladesh</div>
-
-    <div>&gt; <strong>Dr. Selvam Thorez</strong><br>
-    Président<br>
-    Asie-Femmes d'Avenir Association, France</div>
-
-    <div>&gt; <strong>Dr. A. Usha Raja Nanthini</strong><br>
-    Professor and Head, Department of Biotechnology<br>
-    Mother Teresa Women University, India</div>
-
-    <div>&gt; <strong>Dr. Sakdinan Nantang</strong><br>
-    Assistant Professor, Industrial Chemistry<br>
-    Maejo University, Thailand</div>
-
-    <div>&gt; <strong>Dr. M.R. Kuppusamy</strong><br>
-    Associate Professor<br>
-    Rajeshwari Vedhachalam Government Arts College, Tamil Nadu, India</div>
-
-    <div>&gt; <strong>Prof. Dr. Faisal Islam Chowdhury</strong><br>
-    Department of Chemistry<br>
-    University of Chittagong, Bangladesh</div>
-
-    <div>&gt; <strong>Professor Anamika Barua</strong><br>
-    Department of Humanities and Social Sciences<br>
-    IIT Guwahati, India</div>
-
-    <div>&gt; <strong>Dr. Sunita Chaudhary</strong><br>
-    Biodiversity Lead<br>
-    ICIMOD, Nepal</div>
-
-    <div>&gt; <strong>Dr. Antony Stephen</strong><br>
-    Head, MASE<br>
-    Madras School of Social Work, Chennai, Tamil Nadu, India</div>
-
-  </div>
-</section>
-
-  </main>
-
-  <footer>
-    <p>© ICECA 2025 | Asian University for Women | Supported by Swiss Philanthropy Foundation</p>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
- 
