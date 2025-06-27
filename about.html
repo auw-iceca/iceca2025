@@ -21,17 +21,30 @@
 </header>
 
 
-  <!-- Navigation Bar -->
+ <!-- Navigation Bar with Hamburger Menu -->
   <nav class="navbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul id="nav-menu" class="nav-menu">
+      <li class="dropdown">
+        <a href="#welcome">Home</a>
+        <div class="dropdown-content">
+          <a href="#welcome">Welcome</a>
+          <a href="#objectives">Objectives</a>
+          <a href="#venue">Venue</a>
+        </div>
+      </li>
       <li class="dropdown">
         <a href="about.html">Themes and Speakers</a>
         <div class="dropdown-content">
-          <a href="#schedule">Program Schedule</a>
-          <a href="#topics">Conference Topics</a>
-          <a href="#speakers">Speakers</a>
-          <a href="#proceedings">Conference Proceedings</a>
+          <a href="about.html#schedule">Program Schedule</a>
+          <a href="about.html#topics">Conference Topics</a>
+          <a href="about.html#speakers">Speakers</a>
+          <a href="about.html#proceedings">Conference Proceedings</a>
         </div>
       </li>
       <li class="dropdown">
@@ -46,23 +59,26 @@
         </div>
       </li>
       <li><a href="travel.html">Travel & Stay</a></li>
-      <li class="dropdown"><a href="media.html" class="active">Gallery & Media</a>
+      <li class="dropdown">
+        <a href="media.html">Gallery & Media</a>
         <div class="dropdown-content">
-          <a href="media.html#activities">Gallery</a>
+          <a href="media.html#gallery">Gallery</a>
           <a href="sponsors.html#sponsors">Sponsors</a>
-          <a href="sponsors.html#media">Media Coverage</a>
+          <a href="media.html#media">Media Coverage</a>
         </div>
       </li>
-
-      <li class= "dropdown"><a href="contact.html">Contact</a>
-        <div class = "dropdown-content">
-          <a href="contact.html#info">Info</a>
-          <a href="#contact.html#social">Social Media</a>
-          <a href="#contact.html#faqs">FAQs</a>
+      <li class="dropdown">
+        <a href="contact.html">Contact</a>
+        <div class="dropdown-content">
+          <a href="contact.html#info">Contact Info</a>
+          <a href="contact.html#social">Social Media</a>
+          <a href="contact.html#faq">FAQs</a>
         </div>
       </li>
     </ul>
   </nav>
+
+
 
 
   <!-- Main Content -->
